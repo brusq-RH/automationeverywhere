@@ -1,0 +1,8 @@
+site_name: Automation Everywhere 
+theme:
+  name: material 
+  palette:
+    primary: red
+plugins:
+  - search:
+      indexing: 'titles'
