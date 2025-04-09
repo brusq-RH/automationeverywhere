@@ -10,8 +10,14 @@ This workshop provides practical experience with managing inventories and creden
 4. [Additional Credential Types](#4-additional-credential-types)
 5. [Conclusion](#5-conclusion)
 
+**IMPORTANT**
+Before we start, by default, the controller detects automatically the client's language and therefore it may be displayed in french, depending on you laptop's configuration. As all exercises are written in english, it will be much more easier for you if the controller uses also english. To force the controller to switch in english, **add "?lang=en" at the end of controller url**. This has to be done only once.
+
+![Lang](images/change_lang.png)
+
 ### 1. Introduction to Inventories
 In automation controller, inventories define and organize the hosts your playbooks will target. They can be static (a fixed list of hosts) or dynamic (sourced from external systems).
+
 
 ### 2. Exploring the _Workshop Inventory_
 The _Workshop Inventory_ is preloaded in your lab environment, representing a static inventory configuration.
